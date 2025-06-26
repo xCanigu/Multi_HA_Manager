@@ -1,0 +1,12 @@
+name: HA Heartbeat Client
+version: "1.0"
+slug: ha_heartbeat_client
+description: "Trimite heartbeat și primește comenzi de la backend."
+startup: services
+boot: auto
+hassio_api: true
+host_network: true
+
+schema:
+  server_url: str
+  token: str
