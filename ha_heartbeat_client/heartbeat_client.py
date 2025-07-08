@@ -31,7 +31,7 @@ def send_heartbeat():
             print(e)
         time.sleep(30)
 
-# Rulează ambele: heartbeat + WS listener
+# Run: heartbeat + WS listener
 async def main():
     await asyncio.gather(
         asyncio.to_thread(send_heartbeat),

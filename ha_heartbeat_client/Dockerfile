@@ -1,6 +1,5 @@
 FROM ghcr.io/hassio-addons/base:latest
 
-# Copy files in container
 COPY run.sh /run.sh
 COPY heartbeat_client.py /heartbeat_client.py
 
